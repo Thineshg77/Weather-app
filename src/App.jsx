@@ -17,6 +17,7 @@ import thiday from './assets/13d.png'
 import fiday from './assets/50d.png'
 import finight from './assets/50n.png'
 import foday from './assets/04d.png'
+import background from './assets/bg.png'
 
 
 
@@ -156,7 +157,7 @@ useEffect(function () {
 }, []);
   return (
     <>
-      <div className='container'>
+      <div className='container' style={{ backgroundImage:`url(${background})`}}>
       <div className='input-container'>
           <input type="text" className='cityinput' 
           placeholder='   search city' 
