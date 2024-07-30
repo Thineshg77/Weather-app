@@ -21,8 +21,8 @@ body{
 .container{
     width: 350px;
     padding: 20px;
-    margin-top: 250px;
-    background-color: white;
+    margin-top: 240px;
+    background-color: rgba(255, 255, 255, 0.74);
     border-radius: 8px;
     box-shadow: 0 4px 8px black;
 }
@@ -40,6 +40,7 @@ body{
     height: 30px;
     font-size: 16px;
     outline: none;
+    background-color: rgba(255, 255, 255, 0.007);
 }
 .search-icon{
     padding: 10px;
@@ -54,7 +55,7 @@ body{
     height: 100px;
     width: 100px;
     margin-bottom: 10px;
-    margin-top: 5px;
+    margin-top: 30px;
     margin-left: 125px;
 }
 .country,

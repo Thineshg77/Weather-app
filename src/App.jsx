@@ -135,7 +135,7 @@ const search = async()=>{
        setcitynotfound(false);
   }catch (error){
     console.error("An error occured:", error.message);
-    seterror("An error occur...");
+    seterror("");
   }finally{
       setloading(false);
   }
