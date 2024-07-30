@@ -157,7 +157,7 @@ useEffect(function () {
   return (
     <>
       <div className='container'>
-        <div className='input-container'>
+      <div className='input-container'>
           <input type="text" className='cityinput' 
           placeholder='   search city' 
           onChange={handlecity} value={text}
