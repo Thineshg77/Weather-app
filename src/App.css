@@ -1,0 +1,139 @@
+*{
+    
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+      
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchs{
+    width: 20px;
+    height: 20px;
+}
+.container{
+    width: 350px;
+    padding: 20px;
+    margin-top: 250px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 2px solid skyblue;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.cityinput{
+    flex: 1;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+}
+.search-icon{
+    padding: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.search-icon img{
+    margin-top: 5px;
+
+}
+.images{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 125px;
+}
+.country,
+.temp,
+.location{
+    margin-top: 5px;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.temp{
+    font-weight: 500;
+    
+}
+.location{
+    font-weight: 400;
+    font-size: 40px;
+   
+}
+.country{
+    font-size: 18px;
+    color: grey;
+    font-weight: 500;
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.cord div span{
+    font-size: 14px;
+
+}
+.humidity-percentage,
+.wind-percentage,
+.cord div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.element{
+    text-align: center;
+}
+.copy{
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    margin-top: 50px;
+}
+.copy span{
+    color: black;
+    font-weight: bold;
+}
+.loading-message,
+.error-message,
+.city-not-found{
+    margin-top: 10px;
+    color: #888;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
